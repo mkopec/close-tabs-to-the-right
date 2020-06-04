@@ -1,0 +1,23 @@
+{
+  "applications": {
+    "gecko": {
+      "strict_min_version": "53.0"
+    }
+  },
+
+  "description": "__MSG_extensionDescription__",
+  "homepage_url": "https://github.com/mkopec/close-tabs-to-the-right",
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "contextMenus"
+  ],
+
+  "default_locale": "en"
+}

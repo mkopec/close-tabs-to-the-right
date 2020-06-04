@@ -1,0 +1,17 @@
+{
+    "extensionName": {
+      "message": "Zamknij karty po prawej stronie",
+      "description": "Nazwa rozszerzenia."
+    },
+
+
+  "extensionDescription": {
+    "message": "Dodaje przycisk \"Zamknij karty po prawej stronie\" do menu kontekstowego karty",
+    "description": "Opis rozszerzenia"
+  },
+
+  "contextItemTitle": {
+      "message": "Zamknij karty po prawej stronie",
+      "description": "Tytuł przycisku w menu kontekstowym."
+  }
+}
