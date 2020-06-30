@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "关闭右侧标签页",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "在标签页上下文菜单里加入关闭右侧标签页的菜单。",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "关闭右侧标签页",
+      "description": "Tittle of the context menu item."
+  }
+}
