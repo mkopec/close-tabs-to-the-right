@@ -11,6 +11,6 @@
 
   "contextItemTitle": {
       "message": "关闭右侧标签页",
-      "description": "Tittle of the context menu item."
+      "description": "Title of the context menu item."
   }
 }
