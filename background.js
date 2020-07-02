@@ -13,6 +13,14 @@ const menuItemParams = {
 };
 browser.contextMenus.create(menuItemParams, onCreated);
 
+// Add Close Other Tabs menu item
+const menuItemParamsCloseOtherTabs = {
+  id: "close_other_tabs",
+  title: browser.i18n.getMessage("contextItemTitleCloseOtherTabs"),
+  contexts: ["tab"]
+};
+browser.contextMenus.create(menuItemParamsCloseOtherTabs, onCreated);
+
 function closeTabs(sender, tabs) {
     var senderFound = false;
     for (var tab of tabs) {
@@ -26,10 +34,24 @@ function closeTabs(sender, tabs) {
     }
 }
 
+function closeOtherTabs(sender, tabs) {
+    for (var tab of tabs) {
+        if (tab.id == sender.id) {
+            continue;
+        } else if (!tab.pinned) {
+            browser.tabs.remove(tab.id);
+        }
+    }
+}
+
 browser.contextMenus.onClicked.addListener(function(info, sender) {
     var querying = browser.tabs.query({currentWindow: true});
 
-    querying.then(closeTabs.bind(null, sender));
+    if (info.menuItemId == "close_right") {
+        querying.then(closeTabs.bind(null, sender));
+    } else if (info.menuItemId == "close_other_tabs") {
+        querying.then(closeOtherTabs.bind(null, sender));
+    }
 });
 
 
