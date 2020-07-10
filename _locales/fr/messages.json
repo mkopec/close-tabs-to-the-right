@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Fermer les onglets situés à droite",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Ajoute une option aux menus d'onglets qui ferme tous les onglets à droite de l'onglet sélectionné.",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "Fer&mer les onglets situés à droite",
+      "description": "Title of the context menu item."
+  }
+}
