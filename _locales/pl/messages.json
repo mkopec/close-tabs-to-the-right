@@ -11,7 +11,7 @@
   },
 
   "contextItemTitle": {
-      "message": "Zamknij karty po prawej stronie",
+      "message": "Zamknij karty po prawej &stronie",
       "description": "Tytuł przycisku w menu kontekstowym."
   }
 }

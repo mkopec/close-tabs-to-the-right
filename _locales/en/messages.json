@@ -10,7 +10,7 @@
   },
 
   "contextItemTitle": {
-      "message": "Close Tabs to the Right",
+      "message": "Close Tabs to the R&ight",
       "description": "Title of the context menu item."
   }
 }
