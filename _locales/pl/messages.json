@@ -1,17 +1,17 @@
 {
     "extensionName": {
-      "message": "Zamknij inne zakładki",
+      "message": "Zamknij inne karty",
       "description": "Nazwa rozszerzenia."
     },
 
 
   "extensionDescription": {
-    "message": "Dodaje przycisk \"Zamknij karty po prawej stronie\" do menu kontekstowego karty",
+    "message": "Dodaje opcję \"Zamknij inne karty\" do menu kontekstowego karty",
     "description": "Opis rozszerzenia"
   },
 
   "contextItemTitle": {
-      "message": "Zamknij karty po prawej stronie",
+      "message": "Za&mknij inne karty",
       "description": "Tytuł przycisku w menu kontekstowym."
   }
 }
