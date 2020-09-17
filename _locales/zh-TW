@@ -1,1 +1,16 @@
+{
+  "extensionName": {
+    "message": "關閉右方分頁",
+    "description": "Name of the extension."
+  },
 
+  "extensionDescription": {
+    "message": "恢復FX78分頁列功能，在分頁列選單加入關閉右方分頁功能。",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "關閉右方分頁(&I)",
+      "description": "Title of the context menu item."
+  }
+}
