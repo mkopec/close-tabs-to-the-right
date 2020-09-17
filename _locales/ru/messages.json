@@ -10,6 +10,8 @@
   },
 
   "contextItemTitle": {
-      "message": "Закрыть другие вкладки",
-      "description": "Title of the context menu item."
- 
+    "message": "Закрыть другие вкладки",
+    "description": "Title of the context menu item."
+  }
+}
+
