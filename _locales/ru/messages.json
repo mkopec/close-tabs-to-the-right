@@ -1,0 +1,15 @@
+{
+  "extensionName": {
+    "message": "Закрыть другие вкладки",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Add a context menu to tabs menus that closes all tabs to the right of the selected tab.",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "Закрыть другие вкладки",
+      "description": "Title of the context menu item."
+ 
