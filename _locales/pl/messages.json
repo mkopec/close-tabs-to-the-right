@@ -10,7 +10,7 @@
     "description": "Opis rozszerzenia"
   },
 
-  "contextItemTitle": {
+  "contextItemTitleCloseOtherTabs": {
       "message": "Za&mknij inne karty",
       "description": "Tytuł przycisku w menu kontekstowym."
   }

@@ -9,8 +9,8 @@
     "description": "Description of the extension."
   },
 
-  "contextItemTitle": {
-    "message": "Закрыть другие вкладки",
+  "contextItemTitleCloseOtherTabs": {
+    "message": "Закрыть другие вкладки Close other Tabs",
     "description": "Title of the context menu item."
   }
 }

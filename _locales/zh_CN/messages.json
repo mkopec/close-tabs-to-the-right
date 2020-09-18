@@ -1,16 +1,16 @@
 {
   "extensionName": {
-    "message": "Close Other Tabs",
+    "message": "关闭其他标签页",
     "description": "Name of the extension."
   },
 
   "extensionDescription": {
-    "message": "Add a context menu to tabs menus that closes all tabs to the right of the selected tab.",
+    "message": "在标签页上下文菜单里加入关闭其他标签页的菜单。",
     "description": "Description of the extension."
   },
 
   "contextItemTitleCloseOtherTabs": {
-      "message": "Close Other Tabs",
+      "message": "关闭其他标签页",
       "description": "Title of the context menu item that closes other tabs."
   }
 }
