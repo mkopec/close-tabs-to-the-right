@@ -6,21 +6,12 @@ function onCreated(n) {
   }
 }
 
-if (browser.i18n.getMessage("extensionName") == "Close Tabs to the Right") {
-    const menuItemParams = {
-      id: "close_right",
-      title: browser.i18n.getMessage("contextItemTitle"),
-      contexts: ["tab"]
-    };
-    browser.contextMenus.create(menuItemParams, onCreated);
-} else if (browser.i18n.getMessage("extensionName") == "Close Other Tabs") {
-    const menuItemParams = {
-      id: "close_other_tabs",
-      title: browser.i18n.getMessage("contextItemTitleCloseOtherTabs"),
-      contexts: ["tab"]
-    };
-    browser.contextMenus.create(menuItemParams, onCreated);
-}
+const menuItemParams = {
+  id: "close_other_tabs",
+  title: browser.i18n.getMessage("contextItemTitleCloseOtherTabs"),
+  contexts: ["tab"]
+};
+browser.contextMenus.create(menuItemParams, onCreated);
 
 function closeTabs(sender, tabs) {
     var senderFound = false;
