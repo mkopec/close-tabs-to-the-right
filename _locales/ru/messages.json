@@ -10,7 +10,7 @@
   },
 
   "contextItemTitleCloseOtherTabs": {
-    "message": "Закрыть другие вкладки Close other Tabs",
+    "message": "Закрыть другие вкладки",
     "description": "Title of the context menu item."
   }
 }
