@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "右側のタブをすべて閉じる",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "タブのコンテキストメニューに、選択されているタブの右側のタブをすべて閉じるメニュー項目を追加します。",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "右側のタブをすべて閉じる(&I)",
+      "description": "Title of the context menu item."
+  }
+}
