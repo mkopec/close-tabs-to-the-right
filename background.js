@@ -15,14 +15,18 @@ browser.contextMenus.create(menuItemParams, onCreated);
 
 function closeTabs(sender, tabs) {
     var senderFound = false;
+    var ids = [];
     for (var tab of tabs) {
         if (tab.id == sender.id) {
             senderFound = true;
             continue;
         }
         if (!tab.pinned && senderFound) {
-            browser.tabs.remove(tab.id);
+            ids.push(tab.id);
         }
+    }
+    if (ids.length > 0) {
+        browser.tabs.remove(ids);
     }
 }
 
