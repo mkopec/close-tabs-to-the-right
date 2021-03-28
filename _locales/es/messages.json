@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Cerrar pestañas a la derecha",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Add a context menu to tabs menus that closes all tabs to the right of the selected tab.",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "Cerrar pestañas a la derecha",
+      "description": "Title of the context menu item."
+  }
+}
