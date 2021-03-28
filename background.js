@@ -27,12 +27,16 @@ function closeTabs(sender, tabs) {
 }
 
 function closeOtherTabs(sender, tabs) {
+    var ids = [];
     for (var tab of tabs) {
         if (tab.id == sender.id) {
             continue;
         } else if (!tab.pinned) {
-            browser.tabs.remove(tab.id);
+            ids.push(tab.id);
         }
+    }
+    if (ids.length > 0) {
+        browser.tabs.remove(ids);
     }
 }
 
