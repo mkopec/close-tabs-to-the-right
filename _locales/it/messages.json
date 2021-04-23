@@ -1,0 +1,16 @@
+ {
+  "extensionName": {
+    "message": "Chiudi le schede a destra",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Aggiunge una voce al menu contestuale delle schede che chiude tutte le schede a destra di quella selezionata",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "Chiu&di le schede a destra",
+      "description": "Title of the context menu item."
+  }
+}
