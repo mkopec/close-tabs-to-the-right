@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Fechar abas à direita",
+    "description": "Nome da extensão."
+  },
+
+  "extensionDescription": {
+    "message": "Adicione um item no menu de contexto ao clicar o com botão direito sobre uma aba. A extensão adiciona um item de menu para fechar as abas à direita da aba clicada.",
+    "description": "Descrição da extensão."
+  },
+
+  "contextItemTitle": {
+      "message": "Fechar abas à dire&ita",
+      "description": "Título do item no menu de contexto."
+  }
+}
