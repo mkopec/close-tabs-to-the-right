@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "Lukk faner til høgre",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Legg til ein kontekstmeny for faner som lukker alle faner til høgre for den valde.",
+    "description": "Description of the extension."
+  },
+
+  "contextItemTitle": {
+      "message": "Lukk faner til høg&re",
+      "description": "Title of the context menu item."
+  }
+}
