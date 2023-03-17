@@ -10,7 +10,7 @@
   },
 
   "contextItemTitle": {
-      "message": "关闭右侧标签页",
+      "message": "关闭右侧标签页(&X)",
       "description": "Title of the context menu item."
   }
 }
